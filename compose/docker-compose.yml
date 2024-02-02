@@ -20,7 +20,7 @@ services:
     build: ./todo-frontend
     container_name: frontend
     ports:
-      - "8000:80"
+      - "8000:8000"
     depends_on:
       - backend
     environment:

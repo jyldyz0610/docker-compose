@@ -1,9 +1,11 @@
 # Zertifikate für lokale Entwicklungszwecke erstellen:
 
 
- choco install mkcert
+ 1.choco install mkcert
+ 
+ 2. mkcert --install 
 
-# den wir für die lokale Entwicklung nutzen können `todoapp.internal` erstellen für diesen Namen ein SSL Zertifikat. Key generieren: Z.b: "todoapp.internal.key"
+# den wir für die lokale Entwicklung nutzen können `todoapp.internal` erstellen für diesen Namen ein SSL Zertifikat. Key generieren: Z.b: "todoapp.internal.key" Zertifikate installieren: "todoapp.internal.key"
 mkcert todoapp.internal localhost 127.0.0.1 ::1
 
 

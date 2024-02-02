@@ -1,5 +1,5 @@
 console.log("Todo Script läuft");
-const apiUrl = "http://localhost:3000/";
+const apiUrl = "https://todoapp.internal/";
 // const apiUrl = "http://apigateway.awslambda.amazonaws.com/";
 
 const container = document.getElementById('todo-container');

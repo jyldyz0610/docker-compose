@@ -1,5 +1,7 @@
 FROM nginx:alpine
 WORKDIR /app
-COPY . /usr/share/nginx/html/
-EXPOSE 80
+COPY . /etc/nginx/html/
+COPY ./nginx.conf /etc/nginx/
+
+# EXPOSE 80
 CMD [ "nginx", "-g","daemon off;" ]
